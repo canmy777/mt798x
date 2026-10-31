@@ -31,7 +31,7 @@ permissions: write-all
 #CI任务
 jobs:
   cleanup:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Delete old Releases and Workflows
         uses: ophub/delete-releases-workflows@main
